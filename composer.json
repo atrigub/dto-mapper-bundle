@@ -1,0 +1,32 @@
+{
+  "name": "nsmuffin/dto-mapper-bundle",
+  "description": "Wrapper around nsmuffin/dto-mapper",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Shimanovich",
+      "email": "nsmuffin@gmail.com"
+    }
+  ],
+  "keywords": [
+    "php",
+    "mapper",
+    "DTO"
+  ],
+  "require": {
+    "php": ">=7.1",
+    "symfony/dependency-injection": "~2.7|~3.0",
+    "symfony/config": "~2.7|~3.0",
+    "symfony/http-kernel": "~2.7|~3.0",
+    "nsmuffin/dto-mapper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": { "NSM\\Bundle\\DTOMapperBundle\\": ""}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NSM\\Mapper\\Tests\\": "tests/"
+    }
+  }
+}
