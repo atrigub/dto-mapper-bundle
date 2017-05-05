@@ -19,6 +19,7 @@ class DTOParser
     const COLLECTION = 'collection';
     const DATE = 'date';
     const DATETIME = 'datetime';
+    const MODEL = 'model';
 
     /**
      * @var Mapper
@@ -119,7 +120,7 @@ class DTOParser
                     'normalized' => sprintf("object (%s)", end($exp)),
                     'class' => $type,
                     'subType' => $type,
-                    'actualType' => DataTypes::MODEL,
+                    'actualType' => self::MODEL,
                     'inline' => false,
                 ]
             );
