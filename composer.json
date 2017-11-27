@@ -16,10 +16,10 @@
   ],
   "require": {
     "php": ">=7.1",
-    "symfony/dependency-injection": "~2.7|~3.0",
-    "symfony/config": "~2.7|~3.0",
-    "symfony/http-kernel": "~2.7|~3.0",
-    "nsmuffin/dto-mapper": "dev-master"
+    "symfony/dependency-injection": ">=3.0",
+    "symfony/config": ">=3.0",
+    "symfony/http-kernel": ">=3.0",
+    "nsmuffin/dto-mapper": "~0.2"
   },
   "autoload": {
     "psr-4": { "NSM\\Bundle\\DTOMapperBundle\\": ""}
